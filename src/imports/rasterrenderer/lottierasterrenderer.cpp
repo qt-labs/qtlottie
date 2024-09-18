@@ -70,7 +70,7 @@ void LottieRasterRenderer::render(const BMLayer &layer)
         else {
             // Clipping is not applied to paths that have
             // not setting clipping parameters
-            m_painter->setClipPath(QPainterPath());
+            m_painter->setClipping(false);
         }
         m_buildingClipRegion = false;
         m_clipPath = QPainterPath();
