@@ -2,7 +2,8 @@ version = 1
 
 [[annotations]]
 path = ["tests/auto/imports/tst_imports.cpp",
-        "tests/manual/html/index.html"]
+        "tests/manual/html/index.html",
+        "tests/**.png"]
 precedence = "closest"
 comment = "test"
 SPDX-FileCopyrightText = "Copyright (C) 2024 The Qt Company Ltd."
