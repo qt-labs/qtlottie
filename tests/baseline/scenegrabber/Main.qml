@@ -15,12 +15,13 @@ Image {
         id: qtlottie
         objectName: "qtlottie_animation_item"
         quality: LottieAnimation.HighQuality
+        autoPlay: false
 
         property int freezeFrame: -1
         onStatusChanged: {
             if (status === LottieAnimation.Ready) {
                 if (freezeFrame < 0)
-                    freezeFrame = (endFrame - startFrame) / 2;
+                    freezeFrame = Math.floor((endFrame - startFrame) / 2);
                 gotoAndStop(freezeFrame);
             }
         }

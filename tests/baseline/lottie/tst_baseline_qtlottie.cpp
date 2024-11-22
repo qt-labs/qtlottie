@@ -64,8 +64,6 @@ void tst_QtLottie::initTestCase()
 
 #if defined(Q_OS_WIN)
     grabberPath = QFINDTESTDATA("qtlottie_qmlscenegrabber.exe");
-#elif defined(Q_OS_DARWIN)
-    grabberPath = QFINDTESTDATA("qtlottie_qmlscenegrabber.app/Contents/MacOS/qmlscenegrabber");
 #else
     grabberPath = QFINDTESTDATA("qtlottie_qmlscenegrabber");
 #endif
