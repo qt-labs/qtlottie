@@ -25,6 +25,7 @@ private Q_SLOTS:
     void initTestCase();
     void init();
     void cleanup();
+    void cleanupTestCase();
     void testRendering_data();
     void testRendering();
 
@@ -104,6 +105,11 @@ void tst_QtLottie::cleanup()
     // Allow subsystems time to settle
     if (!aborted)
         QTest::qWait(grabberTimeout / 100);
+}
+
+void tst_QtLottie::cleanupTestCase()
+{
+    QBaselineTest::finalizeAndDisconnect();
 }
 
 void tst_QtLottie::testRendering_data()
