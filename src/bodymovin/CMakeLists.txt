@@ -1,7 +1,7 @@
 # Copyright (C) 2022 The Qt Company Ltd.
 # SPDX-License-Identifier: BSD-3-Clause
 
-qt_internal_add_module(BodymovinPrivate
+qt_internal_add_module(LottiePrivate
     INTERNAL_MODULE
     SOURCES
         beziereasing.cpp beziereasing_p.h
@@ -34,7 +34,7 @@ qt_internal_add_module(BodymovinPrivate
         lottierenderer.cpp lottierenderer_p.h
         trimpath.cpp trimpath_p.h
     DEFINES
-        BODYMOVIN_LIBRARY
+        LOTTIE_LIBRARY
         QT_DEPRECATED_WARNINGS
     PUBLIC_LIBRARIES
         Qt::Core

@@ -20,8 +20,8 @@
 #include <QQmlFile>
 #include <math.h>
 
-#include <QtBodymovin/private/bmbase_p.h>
-#include <QtBodymovin/private/bmlayer_p.h>
+#include <QtLottie/private/bmbase_p.h>
+#include <QtLottie/private/bmlayer_p.h>
 
 #include "rasterrenderer/batchrenderer.h"
 #include "rasterrenderer/lottierasterrenderer.h"

@@ -15,7 +15,7 @@
 // We mean it.
 //
 
-#include <QtBodymovin/private/bmbase_p.h>
+#include <QtLottie/private/bmbase_p.h>
 
 QT_BEGIN_NAMESPACE
 

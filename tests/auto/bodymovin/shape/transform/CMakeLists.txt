@@ -14,6 +14,6 @@ qt_internal_add_test(tst_bodymovin_transform
         Qt::Gui
         Qt::GuiPrivate
         Qt::Test
-        Qt::BodymovinPrivate
+        Qt::LottiePrivate
     TESTDATA ${test_data}
 )

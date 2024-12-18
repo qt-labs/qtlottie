@@ -13,6 +13,6 @@ qt_internal_add_test(tst_shapelayer
     LIBRARIES
         Qt::Gui
         Qt::Test
-        Qt::BodymovinPrivate
+        Qt::LottiePrivate
     TESTDATA ${test_data}
 )

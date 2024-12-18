@@ -9,7 +9,7 @@
 #include <QStack>
 #include <QRegion>
 
-#include <QtBodymovin/private/lottierenderer_p.h>
+#include <QtLottie/private/lottierenderer_p.h>
 
 QT_BEGIN_NAMESPACE
 

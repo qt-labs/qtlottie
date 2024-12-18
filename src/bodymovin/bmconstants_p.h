@@ -18,7 +18,7 @@
 #include <QObject>
 #include <QLoggingCategory>
 
-#include <QtBodymovin/bmglobal.h>
+#include <QtLottie/bmglobal.h>
 #include <QtCore/private/qglobal_p.h>
 
 #define BM_LAYER_PRECOMP_IX     0x10000

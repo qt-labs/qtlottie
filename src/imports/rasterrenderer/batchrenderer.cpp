@@ -14,10 +14,10 @@
 #include <QJsonDocument>
 #include <QJsonArray>
 
-#include <QtBodymovin/private/bmconstants_p.h>
-#include <QtBodymovin/private/bmbase_p.h>
-#include <QtBodymovin/private/bmimagelayer_p.h>
-#include <QtBodymovin/private/bmlayer_p.h>
+#include <QtLottie/private/bmconstants_p.h>
+#include <QtLottie/private/bmbase_p.h>
+#include <QtLottie/private/bmimagelayer_p.h>
+#include <QtLottie/private/bmlayer_p.h>
 
 #include "lottieanimation.h"
 #include "lottierasterrenderer.h"

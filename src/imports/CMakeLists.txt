@@ -1,11 +1,11 @@
 # Copyright (C) 2022 The Qt Company Ltd.
 # SPDX-License-Identifier: BSD-3-Clause
 
-qt_internal_add_qml_module(lottieqtplugin
+qt_internal_add_qml_module(Lottie
     URI "Qt.labs.lottieqt"
     VERSION "${PROJECT_VERSION}"
-    CLASS_NAME BodymovinPlugin
-    PLUGIN_TARGET lottieqtplugin
+    CLASS_NAME Lottie
+    PLUGIN_TARGET Lottie
     DEPENDENCIES
         QtQuick
     SOURCES
@@ -18,10 +18,10 @@ qt_internal_add_qml_module(lottieqtplugin
         Qt::GuiPrivate
         Qt::Qml
         Qt::Quick
-        Qt::BodymovinPrivate
+        Qt::LottiePrivate
     NO_GENERATE_CPP_EXPORTS
 )
 
-qt_internal_add_docs(lottieqtplugin
+qt_internal_add_docs(Lottie
     doc/qtlottieanimation.qdocconf
 )

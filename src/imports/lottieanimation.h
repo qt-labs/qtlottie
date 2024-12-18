@@ -11,7 +11,7 @@
 #include <QThread>
 #include <QMetaObject>
 
-#include <QtBodymovin/private/bmconstants_p.h>
+#include <QtLottie/private/bmconstants_p.h>
 
 QT_BEGIN_NAMESPACE
 

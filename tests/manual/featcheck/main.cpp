@@ -5,9 +5,12 @@
 #include <QJsonDocument>
 #include <QJsonObject>
 #include <QJsonArray>
+#include <QFile>
 
 #include "private/bmbase_p.h"
 #include "private/bmlayer_p.h"
+
+using namespace Qt::StringLiterals;
 
 int main(int argc, char *argv[])
 {
@@ -44,11 +47,13 @@ int main(int argc, char *argv[])
     if (rootObj.value(QLatin1String("markers")).toArray().count())
         qWarning() << "markers not supported";
 
+    const auto version = QVersionNumber::fromString(rootObj.value("v"_L1).toString());
+
     QJsonArray jsonLayers = rootObj.value(QLatin1String("layers")).toArray();
     QJsonArray::const_iterator jsonLayerIt = jsonLayers.constBegin();
     while (jsonLayerIt != jsonLayers.constEnd()) {
         QJsonObject jsonLayer = (*jsonLayerIt).toObject();
-        BMLayer *layer = BMLayer::construct(jsonLayer);
+        BMLayer *layer = BMLayer::construct(jsonLayer, version);
         if (layer)
             delete layer;
         jsonLayerIt++;

@@ -17,8 +17,8 @@
 
 #include <QPainterPath>
 
-#include <QtBodymovin/private/bmbase_p.h>
-#include <QtBodymovin/private/bmproperty_p.h>
+#include <QtLottie/private/bmbase_p.h>
+#include <QtLottie/private/bmproperty_p.h>
 
 QT_BEGIN_NAMESPACE
 

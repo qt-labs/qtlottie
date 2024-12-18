@@ -19,10 +19,10 @@
 #include <QList>
 #include <QVersionNumber>
 
-#include <QtBodymovin/bmglobal.h>
-#include <QtBodymovin/private/bmconstants_p.h>
+#include <QtLottie/bmglobal.h>
+#include <QtLottie/private/bmconstants_p.h>
 
-#include <QtBodymovin/private/lottierenderer_p.h>
+#include <QtLottie/private/lottierenderer_p.h>
 
 QT_BEGIN_NAMESPACE
 class BODYMOVIN_EXPORT BMBase

@@ -10,20 +10,20 @@
 #include <QGradient>
 #include <QPointer>
 
-#include <QtBodymovin/private/bmshape_p.h>
-#include <QtBodymovin/private/bmfill_p.h>
-#include <QtBodymovin/private/bmgfill_p.h>
-#include <QtBodymovin/private/bmimage_p.h>
-#include <QtBodymovin/private/bmbasictransform_p.h>
-#include <QtBodymovin/private/bmshapetransform_p.h>
-#include <QtBodymovin/private/bmrect_p.h>
-#include <QtBodymovin/private/bmellipse_p.h>
-#include <QtBodymovin/private/bmpolystar_p.h>
-#include <QtBodymovin/private/bmround_p.h>
-#include <QtBodymovin/private/bmfreeformshape_p.h>
-#include <QtBodymovin/private/bmtrimpath_p.h>
-#include <QtBodymovin/private/bmfilleffect_p.h>
-#include <QtBodymovin/private/bmrepeater_p.h>
+#include <QtLottie/private/bmshape_p.h>
+#include <QtLottie/private/bmfill_p.h>
+#include <QtLottie/private/bmgfill_p.h>
+#include <QtLottie/private/bmimage_p.h>
+#include <QtLottie/private/bmbasictransform_p.h>
+#include <QtLottie/private/bmshapetransform_p.h>
+#include <QtLottie/private/bmrect_p.h>
+#include <QtLottie/private/bmellipse_p.h>
+#include <QtLottie/private/bmpolystar_p.h>
+#include <QtLottie/private/bmround_p.h>
+#include <QtLottie/private/bmfreeformshape_p.h>
+#include <QtLottie/private/bmtrimpath_p.h>
+#include <QtLottie/private/bmfilleffect_p.h>
+#include <QtLottie/private/bmrepeater_p.h>
 
 QT_BEGIN_NAMESPACE
 

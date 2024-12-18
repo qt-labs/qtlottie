@@ -17,9 +17,9 @@
 
 #include <QPointF>
 
-#include <QtBodymovin/private/bmshape_p.h>
-#include <QtBodymovin/private/bmproperty_p.h>
-#include <QtBodymovin/private/bmspatialproperty_p.h>
+#include <QtLottie/private/bmshape_p.h>
+#include <QtLottie/private/bmproperty_p.h>
+#include <QtLottie/private/bmspatialproperty_p.h>
 
 QT_BEGIN_NAMESPACE
 

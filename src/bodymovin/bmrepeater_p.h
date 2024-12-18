@@ -15,10 +15,10 @@
 // We mean it.
 //
 
-#include <QtBodymovin/bmglobal.h>
-#include <QtBodymovin/private/bmshape_p.h>
-#include <QtBodymovin/private/bmproperty_p.h>
-#include <QtBodymovin/private/bmrepeatertransform_p.h>
+#include <QtLottie/bmglobal.h>
+#include <QtLottie/private/bmshape_p.h>
+#include <QtLottie/private/bmproperty_p.h>
+#include <QtLottie/private/bmrepeatertransform_p.h>
 
 QT_BEGIN_NAMESPACE
 

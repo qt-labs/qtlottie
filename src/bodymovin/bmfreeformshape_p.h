@@ -21,10 +21,10 @@
 #include <QHash>
 #include <QList>
 
-#include <QtBodymovin/bmglobal.h>
-#include <QtBodymovin/private/bmshape_p.h>
-#include <QtBodymovin/private/bmtrimpath_p.h>
-#include <QtBodymovin/private/lottierenderer_p.h>
+#include <QtLottie/bmglobal.h>
+#include <QtLottie/private/bmshape_p.h>
+#include <QtLottie/private/bmtrimpath_p.h>
+#include <QtLottie/private/lottierenderer_p.h>
 
 QT_BEGIN_NAMESPACE
 

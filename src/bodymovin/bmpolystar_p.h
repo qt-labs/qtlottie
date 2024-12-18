@@ -21,11 +21,11 @@
 #include <QPen>
 #include <QPainterPath>
 
-#include <QtBodymovin/private/bmshape_p.h>
-#include <QtBodymovin/private/bmproperty_p.h>
-#include <QtBodymovin/private/bmspatialproperty_p.h>
-#include <QtBodymovin/private/bmfill_p.h>
-#include <QtBodymovin/private/bmstroke_p.h>
+#include <QtLottie/private/bmshape_p.h>
+#include <QtLottie/private/bmproperty_p.h>
+#include <QtLottie/private/bmspatialproperty_p.h>
+#include <QtLottie/private/bmfill_p.h>
+#include <QtLottie/private/bmstroke_p.h>
 
 QT_BEGIN_NAMESPACE
 

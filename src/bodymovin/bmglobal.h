@@ -6,7 +6,7 @@
 
 #include <QtCore/qglobal.h>
 
-#if defined(BODYMOVIN_LIBRARY)
+#if defined(LOTTIE_LIBRARY)
 #  define BODYMOVIN_EXPORT Q_DECL_EXPORT
 #else
 #  define BODYMOVIN_EXPORT Q_DECL_IMPORT
